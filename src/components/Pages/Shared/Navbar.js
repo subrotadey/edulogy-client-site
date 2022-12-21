@@ -5,13 +5,16 @@ const Navbar = () => {
   const menuItems = (
     <>
       <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
       <li><Link to="/courses">Courses</Link></li>
       <li><Link to="/teachers">Teachers</Link></li>
+      <li><Link to="/blogs">Blogs</Link></li>
+      <li><Link to="/about">About</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
+      <li><Link to="/login">Login</Link></li>
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 fixed z-50 w-full text-gray-900 bg-white bg-opacity-50 dark:bg-dark dark:text-gray-100 backdrop-filter backdrop-blur-lg dark:bg-opacity-50">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -19,14 +22,14 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16"/>
             </svg>
           </label>
-          <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+          <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-lg">
             {menuItems}
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost normal-case text-xl">EDULOGY</Link>
       </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+        <div className="navbar-center hidden lg:flex ml-auto">
+          <ul className="menu menu-horizontal px-1 text-lg">
           {menuItems}
           </ul>
         </div>
