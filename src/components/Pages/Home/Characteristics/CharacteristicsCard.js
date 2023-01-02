@@ -3,7 +3,7 @@ import React from "react";
 const CharacteristicsCard = ({ img, cardTitle, cardDetails, bgClass }) => {
   return (
     <div>
-      <div className={`card card-side bg-base-100 shadow-xl ${bgClass}`}>
+      <div className={`card card-side hover:bg-violet-300 hover:text-white bg-base-100 shadow-xl transition ease-in-out delay-150 ${bgClass}`}>
         <figure>
           <img className="w-2/5" src={img} alt="Album" />
         </figure>
