@@ -5,7 +5,7 @@ import "./FeatureInfo.css"
 const FeatureInfo = () => {
   
     return (
-        <div className='px-12 my-16 '>
+        <div>
             <div className="card lg:card-side bg-base-100 shadow-xl feature_info">
               <div className='lg:w-2/4 grid-cols-6 mx-auto my-auto'>
                 <figure>

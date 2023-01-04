@@ -9,7 +9,7 @@ import support from '../../../assets/icons/support.svg'
 
 const Characteristics = () => {
     return (
-        <div className='px-12'>
+        <div className='lg:px-12'>
             <div className='border-8 border-indigo-200 border-l-indigo-900 p-6 m-6 border-white  text-gray-600'>
                 <h1 className='text-6xl font-bold italic'>
                     <span  className='text-2xl font-bold text-indigo-500'>MEMBERSHIPS <br /></span>

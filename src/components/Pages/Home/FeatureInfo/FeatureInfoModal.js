@@ -1,7 +1,7 @@
 const FeatureInfoModal = () => {
     return (
         <div 
-        className="background h-72 w-full opacity-80 rounded-lg"
+        className="background h-72 w-full opacity-80 rounded-lg  shadow-lg shadow-cyan-500/50"
         style={{ backgroundImage: "url('https://i.ibb.co/x2PSxxR/banner.jpg')", backgroundSize: "cover"}}
         >
           {/* The button to open modal */}
