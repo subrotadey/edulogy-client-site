@@ -12,7 +12,7 @@ const Banner = () => {
     >
       <div className="hero min-h-screen px-12">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={banner} className="max-w-sm rounded-lg shadow-2xl" alt="" />
+          <img src={banner} className="lg:max-w-sm md:max-w-sm sm:w-100 rounded-lg shadow-2xl" alt="" />
           <div className="">
             <h1 className="text-5xl font-bold">Your Learning Starts Here</h1>
             <p className="py-6">
