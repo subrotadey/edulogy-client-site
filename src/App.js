@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/Pages/About/About';
 import Blogs from './components/Pages/Blogs/Blogs';
 import Contact from './components/Pages/Contact/Contact';
+import CourseDetails from './components/Pages/Courses/CourseDetails';
 import Courses from './components/Pages/Courses/Courses';
 import Home from './components/Pages/Home/Home';
 import Login from './components/Pages/Login/Login';
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path="/courseDetails/:id" element={<CourseDetails />} />
       </Routes>
     </div>
   );
