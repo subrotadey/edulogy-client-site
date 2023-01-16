@@ -78,8 +78,8 @@ const Testimonials = () => {
         },
       ];
     return (
-        <section className='mb-16'>
-            <div className='border-8 border-indigo-200 border-l-indigo-900 p-6 m-6 border-white  text-gray-600'>
+        <section className='mb-16 '>
+            <div className='border-8 border-indigo-200 border-l-indigo-900 p-6 m-6 border-white  text-gray-600 dark:border-none dark:text-white'>
                 <h1 className='text-5xl lg:text-6xl font-bold italic uppercase'>
                     <span  className='text-2xl font-bold text-indigo-500'>happy<br /></span>
                     students</h1>

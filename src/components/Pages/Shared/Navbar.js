@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const menuItems = (
     <>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/courses">Courses</Link></li>
-      <li><Link to="/teachers">Teachers</Link></li>
-      <li><Link to="/blogs">Blogs</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-      <li><Link to="/login">Login</Link></li>
+      <li><Link className="mx-1" to="/">Home</Link></li>
+      <li><Link className="mx-1" to="/courses">Courses</Link></li>
+      <li><Link className="mx-1" to="/teachers">Teachers</Link></li>
+      <li><Link className="mx-1" to="/blogs">Blogs</Link></li>
+      <li><Link className="mx-1" to="/about">About</Link></li>
+      <li><Link className="mx-1" to="/contact">Contact</Link></li>
+      <li><Link className="mx-1" to="/login">Login</Link></li>
     </>
   );
   return (
-    <div className="navbar bg-base-100 fixed z-50 w-full text-gray-900 bg-white bg-opacity-10 dark:bg-dark dark:text-gray-100 backdrop-filter backdrop-blur-lg dark:bg-opacity-50">
+    <div className="navbar bg-base-100 fixed z-50 w-full text-gray-900 bg-white bg-opacity-10 dark:bg-dark dark:text-gray-100 backdrop-filter backdrop-blur-lg dark:bg-opacity-10">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -41,6 +41,9 @@ const Navbar = () => {
           </label>
           <ul tab="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
             <li><Link>Profile<span className="badge">New</span></Link></li>
+            <li><Link>Free Books</Link></li>
+            <li><Link>My Classes</Link></li>
+            <li><Link>Dashboard</Link></li>
             <li><Link>Settings</Link></li>
             <li><Link>Logout</Link></li>
           </ul>

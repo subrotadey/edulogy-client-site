@@ -6,7 +6,7 @@ const FeatureInfo = () => {
   
     return (
         <div>
-            <div className="card lg:card-side bg-base-100 shadow-xl feature_info">
+            <div className="card lg:card-side bg-base-100 shadow-xl feature_info lg:mx-16">
               <div className='lg:w-2/4 grid-cols-6 mx-auto my-auto'>
                 <figure>
                   <div className='w-full lg:w-96 h-72 min-w-fit bg-no-repeat bg-cover ' >

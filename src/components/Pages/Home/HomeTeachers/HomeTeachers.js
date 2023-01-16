@@ -3,7 +3,7 @@ import React from 'react';
 const HomeTeachers = () => {
     return (
         <div>
-            <div className='border-8 border-indigo-200 border-l-indigo-900 p-6 m-6 border-white  text-gray-600'>
+            <div className='border-8 border-indigo-200 border-l-indigo-900 p-6 m-6 border-white  text-gray-600 dark:border-none dark:text-white'>
                 <h1 className='text-6xl font-bold italic uppercase'>
                     <span  className='text-2xl font-bold text-indigo-500'>awesome <br /></span>
                     Teachers</h1>
