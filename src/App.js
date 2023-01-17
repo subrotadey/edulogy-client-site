@@ -7,7 +7,9 @@ import CourseDetails from './components/Pages/Courses/CourseDetails';
 import Courses from './components/Pages/Courses/Courses';
 import Home from './components/Pages/Home/Home';
 import Login from './components/Pages/Login/Login';
+import Footer from './components/Pages/Shared/Footer';
 import Navbar from './components/Pages/Shared/Navbar';
+// import Particle from './components/Pages/Shared/Particle';
 import Teachers from './components/Pages/Teachers/Teachers';
 
 
@@ -15,6 +17,7 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
+      {/* <Particle></Particle> */}
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/courses' element={<Courses></Courses>}></Route>
@@ -25,6 +28,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path="/courseDetails/:id" element={<CourseDetails />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

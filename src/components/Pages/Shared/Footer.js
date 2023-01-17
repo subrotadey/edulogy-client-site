@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import footer from '../../../assets/images/footer.jpg'
+import footer from '../../assets/images/footer.jpg'
 
 const Footer = () => {
     return (
@@ -49,7 +49,7 @@ const Footer = () => {
             </footer>
             <footer className='pb-5 text-center'>
                 <div>
-                  <p>Copyright © 2023 - All right reserved by EDULOGY</p>
+                  <p>Copyright © 2023 - All right reserved by <span className='text-teal-500 font-semibold'>EDULOGY</span>. Love with <span className='text-teal-500 font-semibold'>SUBROTA DEY</span></p>
                 </div>
             </footer>
         </div>
