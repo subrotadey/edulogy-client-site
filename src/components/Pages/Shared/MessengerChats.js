@@ -33,7 +33,6 @@ const MessengerChats = () => {
           console.log("onMessengerLoad");
         }}
       />
-      , document.getElementById("demo") );
     </div>
   );
 };
