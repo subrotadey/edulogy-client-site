@@ -5,7 +5,8 @@ const MessengerChats = () => {
   return (
     <div>
       <MessengerChat
-        pageId="109268111769502"
+        pageId="100089452909725"
+        appId="568507465166192"
         language="sv_SE"
         themeColor={"#000000"}
         bottomSpacing={300}
