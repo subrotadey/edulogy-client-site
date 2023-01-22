@@ -8,6 +8,7 @@ import Courses from './components/Pages/Courses/Courses';
 import Home from './components/Pages/Home/Home';
 import Login from './components/Pages/Login/Login';
 import Footer from './components/Pages/Shared/Footer';
+import MessengerChats from './components/Pages/Shared/MessengerChats';
 import Navbar from './components/Pages/Shared/Navbar';
 // import Particle from './components/Pages/Shared/Particle';
 import Teachers from './components/Pages/Teachers/Teachers';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/courseDetails/:id" element={<CourseDetails />} />
       </Routes>
       <Footer></Footer>
+      <MessengerChats></MessengerChats>
     </div>
   );
 }
