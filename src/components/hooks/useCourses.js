@@ -6,7 +6,7 @@ const useCourses = () => {
 
   useEffect(() => {
     fetch(
-      "https://e-learning-management-system-server-site.vercel.app/course"
+      "https://edulogy.onrender.com/course"
     )
       .then((res) => res.json())
       .then((data) => setCourses(data));
